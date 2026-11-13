@@ -3,7 +3,7 @@ idiomatic_version_file_enable_tools = ["node", "ruby", "python", "java"]  # .nod
 experimental = false
 
 [tools]
+ast-grep = "latest"
 node = "24"
-"npm:@ast-grep/cli" = "latest"
 python = "3.12"
 uv = "latest"
