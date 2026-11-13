@@ -25,9 +25,6 @@ alias cc='claude --dangerously-skip-permissions'
 # func
 function calc(){ echo $(( $1)) }
 
-# mysql
-export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
-
 # mise
 eval "$(mise activate zsh)"
 
