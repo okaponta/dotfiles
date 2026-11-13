@@ -6,6 +6,7 @@ experimental = false
 ast-grep = "latest"
 "gem:ruby-lsp" = "latest"
 go = "latest"
+java = "temurin-25"
 node = "24"
 python = "3.12"
 ruby = "3.4.2"
