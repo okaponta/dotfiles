@@ -1,3 +1,7 @@
 [settings]
 idiomatic_version_file_enable_tools = ["node", "ruby", "python", "java"]  # .node-version / .ruby-version 等も読む
 experimental = false
+
+[tools]
+python = "3.12"
+uv = "latest"
