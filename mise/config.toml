@@ -4,8 +4,10 @@ experimental = false
 
 [tools]
 ast-grep = "latest"
+"gem:ruby-lsp" = "latest"
 go = "latest"
 node = "24"
 python = "3.12"
+ruby = "3.4.2"
 uv = "latest"
 yarn = "1"
