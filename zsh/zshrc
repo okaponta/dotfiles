@@ -37,6 +37,6 @@ export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
 # mise
-eval "$(/Users/kohei/.local/bin/mise activate zsh)"
+eval "$(mise activate zsh)"
 
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
