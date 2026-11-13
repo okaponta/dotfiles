@@ -4,7 +4,6 @@ experimental = false
 
 [tools]
 ast-grep = "latest"
-"gem:ruby-lsp" = "latest"
 go = "latest"
 gradle = "latest"
 hugo = "latest"
