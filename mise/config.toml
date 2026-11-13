@@ -4,6 +4,7 @@ experimental = false
 
 [tools]
 ast-grep = "latest"
+go = "latest"
 node = "24"
 python = "3.12"
 uv = "latest"
