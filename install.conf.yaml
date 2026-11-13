@@ -1,0 +1,15 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+- clean: ['~', '~/.config']
+- link:
+    ~/.zshenv: zsh/zshenv
+    ~/.zprofile: zsh/zprofile
+    ~/.zshrc: zsh/zshrc
+    ~/.gitconfig: git/gitconfig
+    ~/.config/git/ignore: git/ignore
+    ~/.config/mise/config.toml: mise/config.toml
+- shell:
+    - [brew bundle --file=Brewfile, Installing Homebrew packages]
+    - [mise install, Installing mise tools]
